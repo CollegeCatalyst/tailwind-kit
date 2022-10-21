@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+
+
+.btn-style{
+    @apply bg-blue-500 p-4 text-lg rounded-xl text-white m-4 border-2;
+}
+.btn-hover{
+    @apply hover:bg-white hover:text-blue-500 hover:border-[1px] hover:border-blue-500;
+}
+.btn-active{
+    @apply active:outline active:outline-4 active:outline-rose-500 ;
+}
+.input-focus{
+    @apply  focus:ring focus:outline-none focus:border-none;
+}
+@tailwind utilities;
